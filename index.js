@@ -195,7 +195,7 @@ class TwitterSearch {
   }
 
   setSearch() {
-    location.href = 'https://twitter.com/search?q=' + this.fullQuery;
+    location.href = 'https://twitter.com/search?src=typed_query&q=' + this.fullQuery;
   }
 
   get selectedItem() {
